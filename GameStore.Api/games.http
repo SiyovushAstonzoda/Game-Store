@@ -1,29 +1,29 @@
 GET http://localhost:5161/games
 
 ###
-GET http://localhost:5161/games/4
+GET http://localhost:5161/games/2
 
 ###
 POST http://localhost:5161/games
 Content-Type: application/json
 
 {
-    "name": "Forza Harizon",
-    "genreId": "4",
-    "price": 89.99,
-    "releaseDate": "2022-09-13"
+    "name": "Final Fantasy",
+    "genreId": "2",
+    "price": 34.99,
+    "releaseDate": "2002-01-01"
 }
 
 ###
-PUT http://localhost:5161/games/6
+PUT http://localhost:5161/games/1
 Content-Type: application/json
 
 {
     "name": "Street Fighter II Turbo",
-    "genre": "Fighting",
+    "genreId": "1",
     "price": 29.99,
     "releaseDate": "1992-01-01"
 }
 
 ###
-DELETE http://localhost:5161/games/4
+DELETE http://localhost:5161/games/2
