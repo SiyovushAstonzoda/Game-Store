@@ -1,0 +1,29 @@
+GET http://localhost:5161/games
+
+###
+GET http://localhost:5161/games/4
+
+###
+POST http://localhost:5161/games
+Content-Type: application/json
+
+{
+    "name": "Super Mario",
+    "genre": "Platformer",
+    "price": 59.99,
+    "releaseDate": "1985-09-13"
+}
+
+###
+PUT http://localhost:5161/games/6
+Content-Type: application/json
+
+{
+    "name": "Street Fighter II Turbo",
+    "genre": "Fighting",
+    "price": 29.99,
+    "releaseDate": "1992-01-01"
+}
+
+###
+DELETE http://localhost:5161/games/4
