@@ -8,10 +8,10 @@ POST http://localhost:5161/games
 Content-Type: application/json
 
 {
-    "name": "Super Mario",
-    "genre": "Platformer",
-    "price": 59.99,
-    "releaseDate": "1985-09-13"
+    "name": "Forza Harizon",
+    "genreId": "4",
+    "price": 89.99,
+    "releaseDate": "2022-09-13"
 }
 
 ###
