@@ -39,7 +39,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-app.MapGamesEndPoints();
+app.MapGamesEndpoints();
+app.MapGenresEndpoints();
 
 app.MigrateDb();
 

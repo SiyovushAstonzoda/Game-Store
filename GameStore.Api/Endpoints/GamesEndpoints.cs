@@ -9,31 +9,7 @@ public static class GamesEndpoints
 {
     const string GetGameByIdEndPointName = "GetGameById";
 
-    public static readonly List<GameSummaryDto> games = [
-        new(
-            1,
-            "Street Fighter II",
-            "Fighting",
-            19.99M,
-            new DateOnly(1991, 1, 1)
-        ),
-        new(
-            2,
-            "Mega Man",
-            "Action",
-            14.99M,
-            new DateOnly(1987, 1, 1)
-        ),
-        new(
-            3,
-            "Final Fantasy",
-            "RPG",
-            69.99M,
-            new DateOnly(2004, 2, 29)
-        )
-    ];
-
-    public static void MapGamesEndPoints(this WebApplication app)
+    public static void MapGamesEndpoints(this WebApplication app)
     {
         var group = app.MapGroup("/games");
 

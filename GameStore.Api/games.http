@@ -1,7 +1,7 @@
 GET http://localhost:5161/games
 
 ###
-GET http://localhost:5161/games/2
+GET http://localhost:5161/games/3
 
 ###
 POST http://localhost:5161/games
@@ -27,3 +27,6 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5161/games/2
+
+###
+GET http://localhost:5161/genres
